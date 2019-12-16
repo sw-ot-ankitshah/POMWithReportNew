@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="nopcommerce Registration Test Suite">
+    <test name="nopcommerce Registration test cases">
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="localDriverPath" value="C:\Program Files\chromedriver78.exe"/>
+        <parameter name="url" value="https://demo.nopcommerce.com/"/>
+        <classes>
+            <class name="RegisterTS.RegisterTC">
+                <methods>
+                    <include name="RegisterOnNopCommerceTC"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
