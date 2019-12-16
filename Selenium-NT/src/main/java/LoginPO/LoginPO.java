@@ -14,6 +14,7 @@ public class LoginPO extends BasePage {
     public By email_xpath = By.id("Email");
     public By password_xpath = By.id("Password");
     public By submitBtn_xPath = By.xpath("//input[@value='Log in']");
-    //test 1212
+    //tasdadaasdasd
+    //asdasdda
     /////////////////////////////Locator End///////////////////////////
 }
